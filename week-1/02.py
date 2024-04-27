@@ -17,9 +17,15 @@
 
 # name = input("What is your name? ")
 # name = name.strip().title()
-
+ 
 # again 2 lines repeating, so make more efficient.
 
 name = input("What is your name? ").strip().title()
 # Get the value of from user, strip the white spaces, capitalize the first letter, and then save in name.
-print("Hello,", name)
+
+first, last = name.split (" ")
+# Split the name into 2 parts, first and last name.
+
+print("Hello,", first)
+# Print the first name.
+
