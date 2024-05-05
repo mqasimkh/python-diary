@@ -28,4 +28,3 @@ first, last = name.split (" ")
 
 print("Hello,", first)
 # Print the first name.
-

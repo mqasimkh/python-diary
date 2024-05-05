@@ -23,4 +23,3 @@ name = input("What is your name? ")
 # Add f to tell python that this is special string, and need special formatting.
 
 # print(f"Hello, {name}")
-
